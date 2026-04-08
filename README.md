@@ -76,3 +76,53 @@ For Hackathon presentations, there is a dedicated **Dev Tools** button on the bo
 - **Trigger Reroute Alert**: Simulates walking directly into a dark spot to demonstrate Proactive Routing logic mapping alternative safe havens.
 - **Simulate Sudden Impact**: Visually triggers the massive hardware accelerometer impact UI to showcase the auto-countdown SOS modal.
 - **Toggle Power Saver**: Overrides the Chrome hardware battery status so judges can watch the OLED optimization CSS shift happen right before their eyes.
+
+## 🌐 Live Demo
+
+Experience SafeSpace AI in action:
+
+👉 **Live Website:** https://app.netlify.com/projects/safespaceai-agnibytes/overview 
+
+*(Replace the above link with your actual Netlify URL)*
+
+---
+
+## 📱 Recommended Usage
+
+- Open on a **mobile device** for the best experience  
+- Or use **Chrome DevTools → Toggle Device Toolbar (F12)**  
+- Allow **Location & Motion permissions** when prompted  
+
+---
+
+## ⚡ Deployment Details
+
+- **Platform:** Netlify  
+- **Frontend Hosting:** Static (HTML, CSS, JavaScript)  
+- **Backend:** FastAPI (optional for demo)  
+
+---
+
+## 🧠 Notes for Reviewers
+
+Some features may require permissions:
+
+- **DeviceMotionEvent (Accelerometer)**
+- **Battery Status API**
+- **Geolocation API**
+
+Ensure permissions are enabled and the site is accessed via HTTPS (Netlify supports this by default).
+
+---
+
+## 🎥 Demo Mode
+
+For quick testing without physical movement:
+
+Use the **Dev Tools Panel** inside the app:
+
+- 🚨 Trigger Reroute Alert  
+- 💥 Simulate Sudden Impact  
+- 🔋 Toggle Power Saver Mode  
+
+---
